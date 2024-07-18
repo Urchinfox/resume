@@ -1,0 +1,252 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body{
+    font-family: "Bruno Ace SC", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.mx-auto{
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1296px;
+}
+.header{
+    background-color: #000;
+}
+.nav-ul{
+    justify-content: center;
+    align-items: center;
+}
+.nav-li{
+    margin-right: 61px;
+}
+.nav-li a{
+    display: block;
+    width: 306px;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 24px;
+    color: #D1D1D1;
+}
+
+/* banner----------------- */
+
+
+.picture{
+    margin:36px 0;
+
+}
+
+.greet{
+    color: #fff;
+    align-self: center;
+    font-size: 64px;
+    margin-left: 24px;
+    width: 636px;
+    padding: 103px 0;
+}
+
+.greet p:nth-child(3){
+    color:#00FFA3;
+    text-align: end;
+    font-size: 128px;
+}
+
+
+/* introduction ----------- */
+.intro{
+    background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true);
+    /* background-size: cover; */
+}
+.intro-content{
+    padding:80px 0;
+}
+
+.intro-text,.intro-pic{
+    width: 50%;
+}
+
+.intro-pic{
+    width: 746px;
+}
+.intro-text{
+    color: #fff;
+}
+
+.intro-text h2{
+    font-size: 64px;
+}
+
+.intro-text p{
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 32px;
+}
+
+.intro-text-img{
+    width: 128px;
+}
+
+/* about--------------------- */
+.about{
+    margin:160px 0;
+}
+/* 左右兩部分的間隔需要134px 但不知道為什麼左右各推67magin 02那格會往上縮 只好右半部往左邊一次推134px */
+.about-text-content{
+    margin-left: 134px;
+}
+
+/* .advantage-content{
+    padding-right: 67px;
+     左半部往右邊推67px 第二點的li內容會往上縮 不知道為何 
+
+}  */
+
+
+.advantage,.about-text{
+    width: 50%;
+}
+.ad-ul{
+    flex-wrap: wrap;
+}
+.ad-li{
+    width: 50%;
+    /* border: 1px solid #000; */
+}
+
+.ad-li-box{
+    border: solid 1px #E3E3E3;
+    color:#15161D;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    padding: 16px;
+    /* height: 100%; */
+}
+
+.about-text h2{
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+
+.about-text p{
+    font-size: 24px;
+}
+
+/* contact --------------------- */
+.contact{
+    background: linear-gradient(to right, #050014 0%, #050014 89%, #01021E 100%);
+}
+.contact-body{
+    padding: 96px 0;
+}
+
+.contact-text{
+    color:#fff;
+    align-items: center;
+    width: 50%;
+}
+
+.contact-text p{
+    font-size: 64px;
+}
+.contact-icon{
+    width: 50%;
+
+}
+.contact-icon img{
+    border-radius: 40px; 
+    transition: box-shadow 0.3s ease; 
+    margin: 0 10px;
+}
+
+.contact-icon img:hover{
+    box-shadow: 
+    0 0 16px 3px rgba(144, 148, 255, 0.9), 
+    0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* project ------------------------------------- */
+.project img{
+    vertical-align: bottom;
+}
+.project{
+    margin-bottom: 160px;
+}
+.me-24{
+    margin-right: 24px;
+}
+
+.project-left{
+    width: 40%;
+}
+
+.project-right{
+    width: 60%;
+}
+
+.project-title{
+    font-size: 64px;
+    text-align: right;
+    padding-top: 160px;
+    margin-bottom: 16px;
+}
+
+.project-right-top{
+    margin-bottom: 28px;
+}
+
+.project-rt-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.project-btn button{
+    background-color: #000;
+    color:#fff;
+    padding: 12px 24px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+}
+/* footer ------------------------- */
+
+.footer{
+    background-color: #000;
+    padding: 40px 0;
+}
+
+.footer p{
+    color: #fff;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
